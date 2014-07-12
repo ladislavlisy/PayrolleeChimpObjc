@@ -39,12 +39,12 @@
 
 - (void)testShould_Compare_TwoInstancesWith_Different_ContractOrder_And_Same_PositionOrder_AsGreater
 {
-    XCTAssertTrue(_partyTwo > _partyOne);
+    XCTAssertTrue([_partyTwo compare:_partyOne]==NSOrderedDescending);
 }
 
 - (void)testShould_Compare_TwoInstancesWith_Different_ContractOrder_And_Same_PositionOrder_AsLess
 {
-    XCTAssertTrue(_partyOne < _partyTwo);
+    XCTAssertTrue([_partyOne compare:_partyTwo]==NSOrderedAscending);
 }
 
 @end

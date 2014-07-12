@@ -50,12 +50,12 @@
 
 - (void)testShould_Compare_TwoInstancesWith_Different_Code_And_CodeOrder_AsGreater
 {
-    XCTAssertTrue(_orderTwo > _orderOne);
+    XCTAssertTrue([_orderTwo compare:_orderOne]==NSOrderedDescending);
 }
 
 - (void)testShould_Compare_TwoInstancesWith_Different_Code_And_CodeOrder_AsLess
 {
-    XCTAssertTrue(_orderOne < _orderTwo);
+    XCTAssertTrue([_orderOne compare:_orderTwo]==NSOrderedAscending);
 }
 
 @end

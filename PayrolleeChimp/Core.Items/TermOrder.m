@@ -42,7 +42,8 @@
 }
 
 -(BOOL)isEqualToOrder:(TermOrder *)other {
-    if ([self isEqualToParty:other])
+    TermParty * otherParty = (TermParty *)other;
+    if ([self isEqualToParty:otherParty])
     {
         if (_code == other.code && _codeOrder == other.codeOrder)
         {
@@ -56,7 +57,7 @@
     TermParty * otherParty = (TermParty *)other;
     if ([self isEqualToParty:otherParty])
     {
-        return [self compare:other];
+        return [super compare:otherParty];
     }
     if (_code != other.codeOrder)
     {
