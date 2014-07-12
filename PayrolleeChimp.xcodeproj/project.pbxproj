@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32B0A03F51ED86F49A1C4DD5 /* TermOrderCompareCodeOrderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B0A261DAE18C8F58206773 /* TermOrderCompareCodeOrderTest.m */; };
+		32B0A110F2B6F30BD246AEF5 /* TermOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B0AD3DC465E82260842B60 /* TermOrder.m */; };
+		32B0A16A0BA30895E3D705E3 /* TermPartyCompareContractOrderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B0AECA7AF14D47D8CCB298 /* TermPartyCompareContractOrderTest.m */; };
+		32B0A225EC956C2E7E43C8AD /* MHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B0A4D8EDB905617FA734C0 /* MHAppDelegate.m */; };
+		32B0A24A247161FC6D6335AD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B0A4470B275442AA79E05E /* XCTest.framework */; };
+		32B0A283DA35BBF629AFC268 /* TermPartyCompareVersion1Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B0AE9746D802B304D1D681 /* TermPartyCompareVersion1Test.m */; };
+		32B0A28712B215D31051BA23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B0A39ED58533AF21A8132B /* UIKit.framework */; };
+		32B0A29CB478735DD1621729 /* TermPartyCompareVersion2Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B0A3AC91822CC7CB272459 /* TermPartyCompareVersion2Test.m */; };
+		32B0A49F367B044EFB068E26 /* ArticleCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B0A612A5A752E3BA119960 /* ArticleCode.m */; };
+		32B0A5109F7ADB52E250FB6B /* TermParty.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B0A6A44AA05B182547466A /* TermParty.m */; };
+		32B0A616DBD3B090D3AA0C41 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32B0A4DD331D07ECF0BB3CCB /* InfoPlist.strings */; };
+		32B0A6AAB637820A274353B8 /* TermOrderCompareVersion2Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B0A7CB955674F3241D8140 /* TermOrderCompareVersion2Test.m */; };
+		32B0A6D3CECB1C9E73DB8CA5 /* TermOrderCompareVersion1Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B0A28FBB76C47F2F12A38E /* TermOrderCompareVersion1Test.m */; };
+		32B0A6E8FFBC6A5812FFEC27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B0A12AB60DC4D9F953BB41 /* main.m */; };
+		32B0A75B254069318D9B8D60 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32B0A162641E6A6564AF0848 /* Images.xcassets */; };
+		32B0A772F901FB770D2F70F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32B0A031F95E1629FD38C1D6 /* InfoPlist.strings */; };
+		32B0A7C7AC87E886A5D33135 /* TermPartyEqualityTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B0AAB922F9E4EA353483CD /* TermPartyEqualityTest.m */; };
+		32B0A7F3B39D70103CD4246B /* TermOrderEqualityTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B0A5CBEE3398EC2D0C2B6E /* TermOrderEqualityTest.m */; };
+		32B0A810AF884B34DB261D7F /* TermOrderCompareCodeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B0A28851A02B327BA9AB87 /* TermOrderCompareCodeTest.m */; };
+		32B0A89BB8FF77FED294A307 /* TermOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B0AD3DC465E82260842B60 /* TermOrder.m */; };
+		32B0AA10635EC1F4E74C6D90 /* ArticleCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B0A612A5A752E3BA119960 /* ArticleCode.m */; };
+		32B0AAC0FBD068BCECC9F882 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B0A3C154817924CDAF6E82 /* Foundation.framework */; };
+		32B0AB717A488DCC902EF1E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B0A39ED58533AF21A8132B /* UIKit.framework */; };
+		32B0AD34FA689ABEB986A14A /* TermParty.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B0A6A44AA05B182547466A /* TermParty.m */; };
+		32B0AD7E8253E1BEBD10D416 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B0A3C154817924CDAF6E82 /* Foundation.framework */; };
+		32B0AE4A86215294823CF5F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B0A293337704701C2B7A8D /* CoreGraphics.framework */; };
+		32B0AFBE9A34DCD84828A284 /* TermPartyComparePositionOrderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B0AE01C53D44B6F6BB59DA /* TermPartyComparePositionOrderTest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32B0A22CF2DD06A2EF54CD60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32B0A65400D6955F59CA00CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32B0A7D46E06B4286CED6F6E;
+			remoteInfo = PayrolleeChimp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32B0A0D8C6042791EDF6F1B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32B0A12AB60DC4D9F953BB41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32B0A162641E6A6564AF0848 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		32B0A1CE5A4CE22DB748B845 /* PayrolleeChimp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "PayrolleeChimp-Info.plist"; sourceTree = "<group>"; };
+		32B0A261DAE18C8F58206773 /* TermOrderCompareCodeOrderTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TermOrderCompareCodeOrderTest.m; sourceTree = "<group>"; };
+		32B0A28851A02B327BA9AB87 /* TermOrderCompareCodeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TermOrderCompareCodeTest.m; sourceTree = "<group>"; };
+		32B0A28FBB76C47F2F12A38E /* TermOrderCompareVersion1Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TermOrderCompareVersion1Test.m; sourceTree = "<group>"; };
+		32B0A293337704701C2B7A8D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		32B0A329BE2263D805BEA4F2 /* PayrolleeChimpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayrolleeChimpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32B0A39ED58533AF21A8132B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		32B0A3AC91822CC7CB272459 /* TermPartyCompareVersion2Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TermPartyCompareVersion2Test.m; sourceTree = "<group>"; };
+		32B0A3C154817924CDAF6E82 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		32B0A4470B275442AA79E05E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		32B0A4593546C3E6014D3B33 /* MHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHAppDelegate.h; sourceTree = "<group>"; };
+		32B0A4D8EDB905617FA734C0 /* MHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHAppDelegate.m; sourceTree = "<group>"; };
+		32B0A558BBB74A2864B8EA3E /* PayrolleeChimpTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "PayrolleeChimpTests-Info.plist"; sourceTree = "<group>"; };
+		32B0A5CBEE3398EC2D0C2B6E /* TermOrderEqualityTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TermOrderEqualityTest.m; sourceTree = "<group>"; };
+		32B0A612A5A752E3BA119960 /* ArticleCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleCode.m; sourceTree = "<group>"; };
+		32B0A6A44AA05B182547466A /* TermParty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TermParty.m; sourceTree = "<group>"; };
+		32B0A7CB955674F3241D8140 /* TermOrderCompareVersion2Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TermOrderCompareVersion2Test.m; sourceTree = "<group>"; };
+		32B0A89E3746CC321E607BE6 /* PayrolleeChimp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PayrolleeChimp-Prefix.pch"; sourceTree = "<group>"; };
+		32B0A942726E74FC1065E0B7 /* TermParty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TermParty.h; sourceTree = "<group>"; };
+		32B0AAB922F9E4EA353483CD /* TermPartyEqualityTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TermPartyEqualityTest.m; sourceTree = "<group>"; };
+		32B0AB02952C80C39C050A30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32B0AD3DC465E82260842B60 /* TermOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TermOrder.m; sourceTree = "<group>"; };
+		32B0ADFD4CB5D2AD0ADBE5DF /* TermOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TermOrder.h; sourceTree = "<group>"; };
+		32B0AE01C53D44B6F6BB59DA /* TermPartyComparePositionOrderTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TermPartyComparePositionOrderTest.m; sourceTree = "<group>"; };
+		32B0AE394EB08378B609BFE1 /* ArticleCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleCode.h; sourceTree = "<group>"; };
+		32B0AE5E37FDAB1EC686B5C6 /* PayrolleeChimp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayrolleeChimp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32B0AE9746D802B304D1D681 /* TermPartyCompareVersion1Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TermPartyCompareVersion1Test.m; sourceTree = "<group>"; };
+		32B0AECA7AF14D47D8CCB298 /* TermPartyCompareContractOrderTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TermPartyCompareContractOrderTest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32B0AAA3E375D4DABA84F8CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B0A24A247161FC6D6335AD /* XCTest.framework in Frameworks */,
+				32B0AD7E8253E1BEBD10D416 /* Foundation.framework in Frameworks */,
+				32B0AB717A488DCC902EF1E9 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B0ACBC0E9CE078B345C24E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B0AAC0FBD068BCECC9F882 /* Foundation.framework in Frameworks */,
+				32B0AE4A86215294823CF5F8 /* CoreGraphics.framework in Frameworks */,
+				32B0A28712B215D31051BA23 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32B0A037160E4501A8803EA2 /* PayrolleeChimpTests */ = {
+			isa = PBXGroup;
+			children = (
+				32B0A3A9B2ACA21781068621 /* Supporting Files */,
+				32B0AF09DBE2F746BA7454F1 /* TermPartyCompare */,
+				32B0A656D238FF19EDB2398B /* TermOrderCompare */,
+			);
+			path = PayrolleeChimpTests;
+			sourceTree = "<group>";
+		};
+		32B0A1912C629D9697DCB379 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32B0A1CE5A4CE22DB748B845 /* PayrolleeChimp-Info.plist */,
+				32B0A031F95E1629FD38C1D6 /* InfoPlist.strings */,
+				32B0A12AB60DC4D9F953BB41 /* main.m */,
+				32B0A89E3746CC321E607BE6 /* PayrolleeChimp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32B0A3A9B2ACA21781068621 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32B0A558BBB74A2864B8EA3E /* PayrolleeChimpTests-Info.plist */,
+				32B0A4DD331D07ECF0BB3CCB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32B0A656D238FF19EDB2398B /* TermOrderCompare */ = {
+			isa = PBXGroup;
+			children = (
+				32B0A5CBEE3398EC2D0C2B6E /* TermOrderEqualityTest.m */,
+				32B0A28851A02B327BA9AB87 /* TermOrderCompareCodeTest.m */,
+				32B0A261DAE18C8F58206773 /* TermOrderCompareCodeOrderTest.m */,
+				32B0A28FBB76C47F2F12A38E /* TermOrderCompareVersion1Test.m */,
+				32B0A7CB955674F3241D8140 /* TermOrderCompareVersion2Test.m */,
+			);
+			path = TermOrderCompare;
+			sourceTree = "<group>";
+		};
+		32B0A783F5ACEC0CF96A4F13 = {
+			isa = PBXGroup;
+			children = (
+				32B0A993635263FEE8DC9764 /* Products */,
+				32B0A92B06D8E88D8C3E7ED5 /* Frameworks */,
+				32B0AFDDBCD8E03E1129905E /* PayrolleeChimp */,
+				32B0A037160E4501A8803EA2 /* PayrolleeChimpTests */,
+			);
+			sourceTree = "<group>";
+		};
+		32B0A7DFE08A64A5432A4840 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				32B0A612A5A752E3BA119960 /* ArticleCode.m */,
+				32B0AE394EB08378B609BFE1 /* ArticleCode.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		32B0A92B06D8E88D8C3E7ED5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32B0A3C154817924CDAF6E82 /* Foundation.framework */,
+				32B0A293337704701C2B7A8D /* CoreGraphics.framework */,
+				32B0A39ED58533AF21A8132B /* UIKit.framework */,
+				32B0A4470B275442AA79E05E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32B0A993635263FEE8DC9764 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32B0AE5E37FDAB1EC686B5C6 /* PayrolleeChimp.app */,
+				32B0A329BE2263D805BEA4F2 /* PayrolleeChimpTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32B0AF09DBE2F746BA7454F1 /* TermPartyCompare */ = {
+			isa = PBXGroup;
+			children = (
+				32B0AAB922F9E4EA353483CD /* TermPartyEqualityTest.m */,
+				32B0AECA7AF14D47D8CCB298 /* TermPartyCompareContractOrderTest.m */,
+				32B0AE01C53D44B6F6BB59DA /* TermPartyComparePositionOrderTest.m */,
+				32B0AE9746D802B304D1D681 /* TermPartyCompareVersion1Test.m */,
+				32B0A3AC91822CC7CB272459 /* TermPartyCompareVersion2Test.m */,
+			);
+			path = TermPartyCompare;
+			sourceTree = "<group>";
+		};
+		32B0AF690D8CCABFB9CD0F22 /* Core.Items */ = {
+			isa = PBXGroup;
+			children = (
+				32B0A6A44AA05B182547466A /* TermParty.m */,
+				32B0A942726E74FC1065E0B7 /* TermParty.h */,
+				32B0AD3DC465E82260842B60 /* TermOrder.m */,
+				32B0ADFD4CB5D2AD0ADBE5DF /* TermOrder.h */,
+			);
+			path = Core.Items;
+			sourceTree = "<group>";
+		};
+		32B0AFDDBCD8E03E1129905E /* PayrolleeChimp */ = {
+			isa = PBXGroup;
+			children = (
+				32B0A1912C629D9697DCB379 /* Supporting Files */,
+				32B0A4593546C3E6014D3B33 /* MHAppDelegate.h */,
+				32B0A4D8EDB905617FA734C0 /* MHAppDelegate.m */,
+				32B0A162641E6A6564AF0848 /* Images.xcassets */,
+				32B0AF690D8CCABFB9CD0F22 /* Core.Items */,
+				32B0A7DFE08A64A5432A4840 /* Constants */,
+			);
+			path = PayrolleeChimp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32B0A6B0F04354B5B9B76811 /* PayrolleeChimpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32B0A05005341A21F637FDF0 /* Build configuration list for PBXNativeTarget "PayrolleeChimpTests" */;
+			buildPhases = (
+				32B0A9D978781E15A9FF11AF /* Sources */,
+				32B0AAA3E375D4DABA84F8CB /* Frameworks */,
+				32B0ACFAFC06B2B15730B31B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32B0A498CABE817E52C5070A /* PBXTargetDependency */,
+			);
+			name = PayrolleeChimpTests;
+			productName = PayrolleeChimpTests;
+			productReference = 32B0A329BE2263D805BEA4F2 /* PayrolleeChimpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32B0A7D46E06B4286CED6F6E /* PayrolleeChimp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32B0A2B4817485855605C301 /* Build configuration list for PBXNativeTarget "PayrolleeChimp" */;
+			buildPhases = (
+				32B0A95B4DDB39E9D7FC97A8 /* Sources */,
+				32B0ACBC0E9CE078B345C24E /* Frameworks */,
+				32B0A2E123ECDBF6C8D493EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayrolleeChimp;
+			productName = PayrolleeChimp;
+			productReference = 32B0AE5E37FDAB1EC686B5C6 /* PayrolleeChimp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32B0A65400D6955F59CA00CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "___HRAVEMZDY___";
+			};
+			buildConfigurationList = 32B0A952583F23BF88BE1FD8 /* Build configuration list for PBXProject "PayrolleeChimp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 32B0A783F5ACEC0CF96A4F13;
+			productRefGroup = 32B0A993635263FEE8DC9764 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32B0A7D46E06B4286CED6F6E /* PayrolleeChimp */,
+				32B0A6B0F04354B5B9B76811 /* PayrolleeChimpTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32B0A2E123ECDBF6C8D493EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B0A772F901FB770D2F70F2 /* InfoPlist.strings in Resources */,
+				32B0A75B254069318D9B8D60 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B0ACFAFC06B2B15730B31B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B0A616DBD3B090D3AA0C41 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32B0A95B4DDB39E9D7FC97A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B0A6E8FFBC6A5812FFEC27 /* main.m in Sources */,
+				32B0A225EC956C2E7E43C8AD /* MHAppDelegate.m in Sources */,
+				32B0A5109F7ADB52E250FB6B /* TermParty.m in Sources */,
+				32B0A110F2B6F30BD246AEF5 /* TermOrder.m in Sources */,
+				32B0A49F367B044EFB068E26 /* ArticleCode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B0A9D978781E15A9FF11AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B0A7C7AC87E886A5D33135 /* TermPartyEqualityTest.m in Sources */,
+				32B0A7F3B39D70103CD4246B /* TermOrderEqualityTest.m in Sources */,
+				32B0A16A0BA30895E3D705E3 /* TermPartyCompareContractOrderTest.m in Sources */,
+				32B0A810AF884B34DB261D7F /* TermOrderCompareCodeTest.m in Sources */,
+				32B0A03F51ED86F49A1C4DD5 /* TermOrderCompareCodeOrderTest.m in Sources */,
+				32B0A6D3CECB1C9E73DB8CA5 /* TermOrderCompareVersion1Test.m in Sources */,
+				32B0A6AAB637820A274353B8 /* TermOrderCompareVersion2Test.m in Sources */,
+				32B0AFBE9A34DCD84828A284 /* TermPartyComparePositionOrderTest.m in Sources */,
+				32B0A283DA35BBF629AFC268 /* TermPartyCompareVersion1Test.m in Sources */,
+				32B0A29CB478735DD1621729 /* TermPartyCompareVersion2Test.m in Sources */,
+				32B0AA10635EC1F4E74C6D90 /* ArticleCode.m in Sources */,
+				32B0AD34FA689ABEB986A14A /* TermParty.m in Sources */,
+				32B0A89BB8FF77FED294A307 /* TermOrder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32B0A498CABE817E52C5070A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32B0A7D46E06B4286CED6F6E /* PayrolleeChimp */;
+			targetProxy = 32B0A22CF2DD06A2EF54CD60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32B0A031F95E1629FD38C1D6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32B0AB02952C80C39C050A30 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		32B0A4DD331D07ECF0BB3CCB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32B0A0D8C6042791EDF6F1B2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32B0A2FEF1A0B69339F723F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PayrolleeChimp/PayrolleeChimp-Prefix.pch";
+				INFOPLIST_FILE = "PayrolleeChimpTests/PayrolleeChimpTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		32B0A86816F6775E81C2618C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PayrolleeChimp/PayrolleeChimp-Prefix.pch";
+				INFOPLIST_FILE = "PayrolleeChimp/PayrolleeChimp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		32B0A8CD94F8947DE69B8BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PayrolleeChimp/PayrolleeChimp-Prefix.pch";
+				INFOPLIST_FILE = "PayrolleeChimp/PayrolleeChimp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		32B0AA7D49E68F6AAE8464ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32B0AD817A7697BE8F6AD373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PayrolleeChimp/PayrolleeChimp-Prefix.pch";
+				INFOPLIST_FILE = "PayrolleeChimpTests/PayrolleeChimpTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		32B0AE68623815AC9DFD9561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32B0A05005341A21F637FDF0 /* Build configuration list for PBXNativeTarget "PayrolleeChimpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B0A2FEF1A0B69339F723F2 /* Release */,
+				32B0AD817A7697BE8F6AD373 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		32B0A2B4817485855605C301 /* Build configuration list for PBXNativeTarget "PayrolleeChimp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B0A86816F6775E81C2618C /* Release */,
+				32B0A8CD94F8947DE69B8BA6 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		32B0A952583F23BF88BE1FD8 /* Build configuration list for PBXProject "PayrolleeChimp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B0AA7D49E68F6AAE8464ED /* Release */,
+				32B0AE68623815AC9DFD9561 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32B0A65400D6955F59CA00CB /* Project object */;
+}
